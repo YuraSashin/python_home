@@ -23,7 +23,7 @@ def sum(numerator_1: str, denominator_1: str, numerator_2: str, denominator_2: s
         return res
 
 def multiplication(numerator_1: str, denominator_1: str, numerator_2: str, denominator_2: str ):
-    res: str = f'{int(numerator_1) * int(numerator2)}/{int(denominator_1) * int(denominator2)}'
+    res: str = f'{int(numerator_1) * int(numerator_2)}/{int(denominator_1) * int(denominator_2)}'
     return res
 
 numerator1 = str(number('Введите числитель первой дроби: ','Введено некорректное значение'))
