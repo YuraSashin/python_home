@@ -28,5 +28,3 @@ for num in my_list:
 
 
 
-# res = sorted(set(text.split()), key=lambda x: text.count(x))[10:]
-# print(res)
