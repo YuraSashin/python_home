@@ -17,7 +17,7 @@ class Archive:
         return instance
 
     def __init__(self, number: int, value: str):
-        """Defined a method for initializing an instance of a class."""
+        """Определен метод инициализации экземпляра класса."""
         self.number = number
         self.value = value
 
