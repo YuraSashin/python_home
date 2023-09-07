@@ -134,4 +134,5 @@ def run_matrix():
     except TypeError as exc:
         print(f'FAIL! {exc.__class__.__name__}: {exc}')
 
-    help(Matrix)
+    
+help(Matrix)
